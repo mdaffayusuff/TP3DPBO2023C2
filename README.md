@@ -77,34 +77,42 @@ Terdapat beberapa file yang dibuat untuk membentuk program ini.
 ## **Alur program dan Demo**
 
 - Menambahkan data Todo
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/686b34c3-e8a0-4f06-974e-cf5b35653636
 Dari halaman **index.php**, ketika menekan tombol `Add ToDo`, akan memanggil **AddTodo.php** yang menampilakn form untuk disi dengan data yang ingin ditambahkan. Setalah semua terisi dan menekan tombol `submit`, maka dipanggilan **AddTodo_pro.php** untuk memasukan data tersebut ke database dengan menggunakna funsgi `addTodo()`.
 
 - Mengubah data Todo
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/123d5fb2-51df-47ae-a87c-f9765d6ad2f9
 Dari halaman **index.php** maka dipilihla salah satu data yang ingin diubah dengan cara menekan tombol `detail` pada card-nya. Setelah halaman detail muncul, tekan tombol `ubah` untuk memanggil **EditTodo.php** yang memunculkan halaman form yang sudah terisi data sebelumnya. Dengan mengubah data dan menekan tombol `submit`, maka dipanggilah **EditTodo_pro** untuk memasukan perubahan data ke database menggunakan fungsi `updateTodo()`.
 
 - Menghapus data Todo
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/643fdfc9-c40f-45b4-8640-e64f3db8ab30
 Dari halaman **index.php** maka dipilihla salah satu data yang ingin diubah dengan cara menekan tombol `detail` pada card-nya. Setelah halaman detail muncul, tekan tombol `hapus` untuk memanggil fungsi `deleteTodo()` yang secara langsung menghapus data tersebut dari database.
 
 - Melakukan search Todo
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/9d7b0de3-3eb5-4088-a097-0ee3e07ad281
 Dari halaman **index.php**, isi kolom search pada navbar untuk mencari entri ToDo berdasarkan nama tugas pada entri tersebut. Ketika sudah diisi, maka klik `search` untuk melakukan pencarian dengan menggunakan fungsi `searchTodo()` dan hasil pencarian akan muncul.
 
 - Melakukan sort Todo
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/1eb1d487-fa20-4564-9f44-1cc683859e73
 Dari halaman **index.php**, tekan tombol `Sort by the nearest Deadline` untuk mengurutkan ToDo berdasarkan waktu deadline yang paling dekat menggunakan fungsi `sortTodo()`. tekan kembali tombol `Sorted by the nearest Deadline` untuk mengembalikan secara semula.
 
 - Menambahkan data Tipe Tugas
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/d0275985-1c15-46ea-a039-95ffbe382fe2
 Dari halaman **tipetugas.php**, tekan tombol 'Add Tipe Tugas' yang mana akan memanggil **tipeaddit.php** yang memunculkan tampilan form. KEtika form sudah diisi dan menekan tombol `submit`, maka data tersebut kana ditambahkan ke database menggunakan fungsi `addTipe()`.
 
 - Mengubah data Tipe Tugas
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/82c63261-ed6a-435b-8500-a5512353c235
 Dari halaman **tipetugas.php**, tekan ikon pena yang ada pada baris data yang akan diubah. Dengan menekan ikon pena, maka akan memanggil **tipeaddit.php** yang memunculkan tampilan form yang sudah terisi dengan data sebelumnya. Ketika sudah mengubah data dan menekan tombol 'submit', maka perubahan data akan disimpan ke databse menggunakan fungsi `updateTipe()`.
 
 - Menghapus data Tipe Tugas
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/f6340ec0-773f-4b19-b6e3-d2ea44d17d8c
 Dari halaman **tipetugas.php**, tekan ikon tempat sampah yang ada pada baris data yang akan diubah. Dengan menekan ikon tempat sampah, maka data akan langsung dihapus dengan menggunakn fungsi `deleteTipe()`.
 
@@ -112,14 +120,14 @@ Dari halaman **tipetugas.php**, tekan ikon tempat sampah yang ada pada baris dat
 
 
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/0e000d8e-c74b-4acc-a725-68cacd612560
-
-
 Dari halaman **matkul.php**, tekan tombol 'Add Mata Kuliah' yang mana akan memanggil **matkuladdit.php** yang memunculkan tampilan form. KEtika form sudah diisi dan menekan tombol `submit`, maka data tersebut kana ditambahkan ke database menggunakan fungsi `addMatkul()`.
 
 - Mengubah data Mata Kuliah
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/9c3ab497-c48f-42ba-a081-ae99b9336c7a
 Dari halaman **matkul.php**, tekan ikon pena yang ada pada baris data yang akan diubah. Dengan menekan ikon pena, maka akan memanggil **matkuladdit.php** yang memunculkan tampilan form yang sudah terisi dengan data sebelumnya. Ketika sudah mengubah data dan menekan tombol 'submit', maka perubahan data akan disimpan ke databse menggunakan fungsi `updateMatkul()`.
 
 - Menghapus data TMata Kuliah
+
 https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/3d4801a5-8940-4f7e-84cb-7d6cd3374a47
 Dari halaman **matkul.php**, tekan ikon tempat sampah yang ada pada baris data yang akan diubah. Dengan menekan ikon tempat sampah, maka data akan langsung dihapus dengan menggunakn fungsi `deleteMatkul()`.
