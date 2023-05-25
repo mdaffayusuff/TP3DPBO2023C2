@@ -76,4 +76,8 @@ Terdapat beberapa file yang dibuat untuk membentuk program ini.
 ## **Alur program dan Demo**
 
 
+
+https://github.com/mdaffayusuff/TP3DPBO2023C2/assets/95558620/4bb43c62-8e67-4ce9-b2cd-093b566140d0
+
+
 - Press A
