@@ -2,8 +2,6 @@
 
 include('config/db.php');
 include('classes/DB.php');
-include('classes/Divisi.php');
-include('classes/Jabatan.php');
 include('classes/Todo.php');
 include('classes/Template.php');
 

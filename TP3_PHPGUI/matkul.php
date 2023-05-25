@@ -61,6 +61,5 @@ $view->replace('DATA_MAIN_TITLE', $mainTitle);
 $view->replace('ADD_ACTION', 'matkuladdit.php?add=1');
 $view->replace('DATA_TABEL_HEADER', $header);
 $view->replace('DATA_TITLE', $title);
-$view->replace('DATA_FORM_LABEL', $formLabel);
 $view->replace('DATA_TABEL', $data);
 $view->write();
